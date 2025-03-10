@@ -2,11 +2,12 @@
 name = "audio-processor"
 version = "0.0.1"
 edition = "2021"
-description = "A simple rate limiter for Rust APIs"
+authors = ["Rishabh Chaturvedi <chaturvedirishabh91@gmail.com>"]
+description = "A modular audio processing crate that integrates with FFmpeg for various audio operations."
 license = "MIT"
-repository = "https://github.com/rishabh-chaturvedi/api-rate-limiter"
+repository = "https://github.com/rishabh-chaturvedi/audio-processor"
 readme = "README.md"
-keywords = ["audio-processing", "api", "rust"]
+keywords = ["audio-processing", "ffmpeg", "rust"]
 categories = ["web-programming", "concurrency"]
 
 [dependencies]
