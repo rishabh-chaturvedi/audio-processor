@@ -1,6 +1,13 @@
 [package]
 name = "audio-processor"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
+description = "A simple rate limiter for Rust APIs"
+license = "MIT"
+repository = "https://github.com/rishabh-chaturvedi/api-rate-limiter"
+readme = "README.md"
+keywords = ["audio-processing", "api", "rust"]
+categories = ["web-programming", "concurrency"]
 
 [dependencies]
+tempfile = "3.5"
