@@ -39,7 +39,7 @@ Add the following dependency in your `Cargo.toml` file:
 
 ```toml
 [dependencies]
-audio_processor = "0.1.0"
+audio_processor = "0.0.1"
 ```
 
 If you are developing or testing locally, clone the repository and build using:
